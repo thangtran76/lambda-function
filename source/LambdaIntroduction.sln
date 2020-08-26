@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{15CDBED9-1CD5-4181-B7C0-F113669440C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleHandlers", "MultipleHandlers\MultipleHandlers.csproj", "{C7904938-CC06-4F45-BBEC-4CA873DE29CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15CDBED9-1CD5-4181-B7C0-F113669440C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CDBED9-1CD5-4181-B7C0-F113669440C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CDBED9-1CD5-4181-B7C0-F113669440C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CDBED9-1CD5-4181-B7C0-F113669440C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7904938-CC06-4F45-BBEC-4CA873DE29CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7904938-CC06-4F45-BBEC-4CA873DE29CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7904938-CC06-4F45-BBEC-4CA873DE29CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7904938-CC06-4F45-BBEC-4CA873DE29CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E5346E-6017-4F9B-8D65-8921C61C5378}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+Z:\AWS Lambda Function\Backend\bin\Release\netcoreapp3.1\linux-x64\Backend.deps.json
+Z:\AWS Lambda Function\Backend\bin\Release\netcoreapp3.1\linux-x64\Backend.runtimeconfig.json
+Z:\AWS Lambda Function\Backend\bin\Release\netcoreapp3.1\linux-x64\Backend.runtimeconfig.dev.json
+Z:\AWS Lambda Function\Backend\bin\Release\netcoreapp3.1\linux-x64\Backend.dll
+Z:\AWS Lambda Function\Backend\bin\Release\netcoreapp3.1\linux-x64\Backend.pdb
+Z:\AWS Lambda Function\Backend\obj\Release\netcoreapp3.1\linux-x64\Backend.csprojAssemblyReference.cache
+Z:\AWS Lambda Function\Backend\obj\Release\netcoreapp3.1\linux-x64\Backend.AssemblyInfoInputs.cache
+Z:\AWS Lambda Function\Backend\obj\Release\netcoreapp3.1\linux-x64\Backend.AssemblyInfo.cs
+Z:\AWS Lambda Function\Backend\obj\Release\netcoreapp3.1\linux-x64\Backend.dll
+Z:\AWS Lambda Function\Backend\obj\Release\netcoreapp3.1\linux-x64\Backend.pdb
