@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
+using System.Linq;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
@@ -52,7 +53,11 @@ namespace MultipleHandlers
 
             try
             {
-                context.Logger.LogLine(string.Format("Lambda funtion {0} - A new object has been created in bucket named {1}  ", context.FunctionName, s3Event.Bucket.Name));
+                var record = evnt.Records?.FirstOrDefault();
+                var s3ObjectName = record?.S3?.Object?.Key;
+                s3ObjectName = s3ObjectName ?? string.Empty;
+                
+                context.Logger.LogLine(string.Format("Lambda funtion {0} - A new object {1} has been created in bucket named {2}  ", context.FunctionName, s3ObjectName, s3Event.Bucket.Name));
 
                 var response = await this.S3Client.GetObjectMetadataAsync(s3Event.Bucket.Name, s3Event.Object.Key);
                 return response.Headers.ContentType;
